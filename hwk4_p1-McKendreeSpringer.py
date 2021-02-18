@@ -91,7 +91,7 @@ plt.xlabel('X-Axis (cm)')
 plt.ylabel('Y-Axis (cm)')
 plt.show()
 plt.savefig('E-Field_DirectionAndMagnitude.png')
-'''
+
 #attempts to plot the E-field direction and magnitude (as width) on a quiver plot
 plt.clf()
 magEfield = (xEfield**2+yEfield**2)**(1/2)
@@ -100,4 +100,4 @@ plt.title('E-Field')
 plt.xlabel('X-Axis (cm)')
 plt.ylabel('Y-Axis (cm)')
 plt.show()
-plt.savefig('E-Field_Direction/Magnitude-width.png')'''
+plt.savefig('E-Field_DirectionAndMagnitude-width.png')
